@@ -1,0 +1,51 @@
+.header{
+    background-color: #007C80;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.multi-select{
+    width: 60%;
+    color: #000;
+    height: max-content;
+
+}
+
+.headerTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+.inputBox{
+    width: 60%;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.headerType{
+    display: flex;
+    justify-content: center;
+}
+
+.headerType .active{
+    border-bottom-color: #ffffff;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+
+}
+
+.type{
+    cursor: pointer;
+    padding: 10px 30px;
+    margin: 0px 20px;
+}
+
+.type:hover{
+    background-color: rgba(0,0,0,.1)
+}

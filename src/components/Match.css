@@ -1,0 +1,23 @@
+.match{
+    background-color: #000;
+    width: 300px;
+    padding: 10px 20px;
+    border: 1px solid #423F3E;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.title p{
+    margin: 0px;
+    color: rgb(135, 130, 130);
+
+}
+
+p{
+    margin: 10px;
+    color: #fff;
+}
